@@ -1,0 +1,58 @@
+header{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 80px;
+    width: 100%;
+    margin-top: 0;
+    box-shadow: 0px 0px 20px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+.nav-logo i{
+    font-size: 50px;
+    color: goldenrod;
+}
+.nav-options ul{
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.nav-options ul li{
+    margin-left: 40px;
+}
+.nav-options ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-options ul li a:hover{
+    color: goldenrod;
+    text-decoration: 0.2px underline goldenrod;
+}
+.nav-icons{
+    margin-right: 20px;
+    margin-left: 300px;
+    padding-top: 15px;
+    font-size: 25px;
+    display: flex;
+
+}
+.nav-icons i{
+    padding-left: 20px;
+}
+.nav-icons i a{
+    color: black;
+}
+.nav-icons i:hover{
+    color: goldenrod;
+    transform: scale(1.2);
+}
